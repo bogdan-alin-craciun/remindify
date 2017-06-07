@@ -1,0 +1,60 @@
+.list-group {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 75%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.list-group-item {
+    margin-bottom: 10px;
+}
+
+.list-group-item-heading {
+    font-family: BebasNeue, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.list-group-item-text {
+    font-style: italic;
+    font-size: 10px;
+    font-family: BebasNeue, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.badge {
+    float: right;
+}
+
+.btn-group-lg {
+    float: left;
+    margin-left: 10%;
+}
+
+.btn span.glyphicon-ok {
+    opacity: 0;
+}
+
+.btn.active span.glyphicon-ok {
+    opacity: 1;
+    color: #393;
+}
+
+.new-list-form {
+    padding: 5%;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.entry:not(:first-of-type) {
+    margin-top: 10px;
+}
+
+.glyphicon {
+    font-size: 12px;
+}

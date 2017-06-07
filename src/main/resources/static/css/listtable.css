@@ -1,0 +1,28 @@
+.table-list {
+    width: 80% !important;
+    margin-left: 15px;
+}
+
+.tr-list {
+    padding-bottom: 10px !important;
+}
+
+.td-list {
+    width: 30% !important;
+}
+
+.div-left {
+    width: 70% !important;
+    float: left !important;
+}
+
+.div-center {
+    width: 70% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.div-right {
+    width: 70% !important;
+    float: right !important;
+}
