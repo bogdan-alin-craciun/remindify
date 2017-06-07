@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#">
-				<img alt="Brand" src="/img/batman.png" style="width:60px; height:40px; display:inline-block;"><label style="vertical-align: middle;margin-bottom: 0px;">Liviu Cotoarba</label>
+				<img alt="Brand" src="/img/batman.png" style="width:60px; height:40px; display:inline-block;"><label style="vertical-align: middle;margin-bottom: 0px;">Remindify</label>
 			</a>
 		</div>
 		<div id="navbar" class="collapse navbar-collapse">

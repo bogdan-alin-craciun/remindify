@@ -8,6 +8,6 @@
     <link href="/css/all.css" rel="stylesheet"></link>
 
     <!-- Other -->
-    <title>Demo project</title>
-    <link rel="icon" href="http://www.reliefit.com.au/files/3714/7330/2761/Beaconsfieldwebsitedesign.png" type="image/png" />
+    <title>Remindify</title>
+    <link rel="icon" href="https://lh3.googleusercontent.com/TeIUOooyorNeZotMRQEG4gJDs_zksWkuhvqZ33owa4XD3ap70fGeH1xx6UoDDtqsp6M=w300" type="image/png" />
 </head>
