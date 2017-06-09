@@ -23,6 +23,15 @@
 			</div>
 
 			<div class="form-group">
+				<label class="col-sm-2 control-label">Datetime</label>
+				<div class="col-sm-5">
+					<input id="datetimepicker" class="form-control" name="datetime"
+						type="text" required maxlength="16"
+						placeholder="Enter date and time here">
+				</div>
+			</div>
+
+			<div class="form-group">
 				<label class="col-sm-2 control-label">Description</label>
 				<div class="col-sm-5">
 					<textarea class="form-control" rows="5" name="description"
@@ -35,15 +44,6 @@
 				<div class="col-sm-1">
 					<input class="form-control" style="width: 30px; height: 30px;"
 						name="enabled" type="checkbox" value="true">
-				</div>
-			</div>
-
-			<div class="form-group">
-				<label class="col-sm-2 control-label">Datetime</label>
-				<div class="col-sm-5">
-					<input class="form-control" name="datetime" type="text" required
-						pattern="^(\d{4})-(\d{2})-(\d{2}T(\d{2}:(\d{2})$" maxlength="16"
-						title="YYYY-MM-DD HH:MM" placeholder="Enter date and time here">
 				</div>
 			</div>
 
@@ -61,6 +61,13 @@
 	$("textarea").focusout(function() {
 		var defaultText = $(this).val();
 		$(this).val(defaultText.trim());
+	});
+	$('#datetimepicker').datetimepicker({
+		format : 'yyyy-mm-ddThh:ii',
+		weekStart : 1,
+		autoclose : true,
+		todayHighlight : true,
+		minuteStep : 10
 	});
 </script>
 
